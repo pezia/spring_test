@@ -1,0 +1,14 @@
+[
+    {
+        "_class": "hu.qualysoft.spring.entity.Category",
+        "name": "Category 1"
+    },
+    {
+        "_class": "hu.qualysoft.spring.entity.Category",
+        "name": "Category 2"
+    },
+    {
+        "_class": "hu.qualysoft.spring.entity.Category",
+        "name": "Category 3"
+    }
+]
