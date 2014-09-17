@@ -15,7 +15,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @Configuration
 @EnableJpaRepositories("hu.qualysoft.spring.repository")
 @EnableAutoConfiguration
-@ImportResource("classpath:beans.xml")
+@ImportResource("classpath:spring.xml")
 public class Application {
 
     public static void main(String[] args) {
