@@ -25,6 +25,6 @@ public class CategoryController {
     
     @RequestMapping("/category/{id}")
     public Category getCategory(@PathVariable Integer id) {
-        return repository.findOne(id);
+        return repository.findByCustomQuery(id);
     }
 }
